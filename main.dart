@@ -114,84 +114,100 @@ class RecipeScreen extends StatefulWidget {
 class _RecipeScreenState extends State<RecipeScreen> {
   List<Map<String, dynamic>> dishes = [
     {
-      'name': 'Beef Stew',
-      'ingredients': ['beef', 'carrots', 'potatoes', 'onion', 'beef broth']
+      "name": "Chicken Curry",
+      "ingredients": ["chicken", "onion", "tomatoes", "garlic", "ginger", "spices", "yogurt"]
     },
     {
-      'name': 'Chicken Alfredo',
-      'ingredients': ['chicken', 'fettuccine pasta', 'heavy cream', 'Parmesan cheese', 'garlic', 'butter']
+      "name": "Paneer Tikka",
+      "ingredients": ["paneer (cottage cheese)", "bell peppers", "onion", "yogurt", "spices", "lemon juice"]
     },
     {
-      'name': 'Vegetable Stir-Fry',
-      'ingredients': ['mixed vegetables', 'tofu or chicken', 'soy sauce', 'ginger', 'garlic']
+      "name": "Dal Makhani",
+      "ingredients": ["black lentils", "red kidney beans", "butter", "cream", "tomatoes", "spices"]
     },
     {
-      'name': 'Spaghetti Carbonara',
-      'ingredients': ['spaghetti pasta', 'bacon', 'eggs', 'Parmesan cheese', 'black pepper', 'garlic']
+      "name": "Biryani",
+      "ingredients": ["basmati rice", "chicken or mutton", "onion", "spices", "yogurt", "saffron"]
     },
     {
-      'name': 'Fish Tacos',
-      'ingredients': ['white fish', 'tortillas', 'coleslaw', 'lime', 'cilantro', 'avocado']
+      "name": "Palak Paneer",
+      "ingredients": ["paneer (cottage cheese)", "spinach", "onion", "tomatoes", "spices", "cream"]
     },
     {
-      'name': 'Mushroom Risotto',
-      'ingredients': ['Arborio rice', 'mushrooms', 'onion', 'vegetable broth', 'white wine', 'Parmesan cheese']
+      "name": "Butter Chicken (Murgh Makhani)",
+      "ingredients": ["chicken", "tomatoes", "butter", "cream"]
     },
     {
-      'name': 'Pancakes',
-      'ingredients': ['flour', 'milk', 'eggs', 'baking powder', 'butter', 'maple syrup']
+      "name": "Aloo Gobi",
+      "ingredients": ["potatoes", "cauliflower", "onion", "tomatoes", "spices"]
     },
     {
-      'name': 'Spinach and Feta Stuffed Chicken',
-      'ingredients': ['chicken breasts', 'spinach', 'feta cheese', 'garlic', 'olive oil', 'breadcrumbs']
+      "name": "Tandoori Chicken",
+      "ingredients": ["chicken", "yogurt", "spices", "ginger", "garlic"]
     },
     {
-      'name': 'Beef Tacos',
-      'ingredients': ['ground beef', 'taco seasoning', 'tortillas', 'lettuce', 'tomato', 'cheddar cheese']
+      "name": "Chole Bhature",
+      "ingredients": ["chickpeas", "fluffy fried bread", "spices", "onion"]
     },
     {
-      'name': 'Caprese Salad',
-      'ingredients': ['tomatoes', 'fresh mozzarella', 'basil leaves', 'balsamic vinegar', 'olive oil']
+      "name": "Mutton Rogan Josh",
+      "ingredients": ["mutton", "yogurt", "spices", "onion", "tomatoes"]
     },
     {
-      'name': 'Shrimp Scampi',
-      'ingredients': ['shrimp', 'linguine pasta', 'garlic', 'butter', 'white wine', 'lemon']
+      "name": "Dosa",
+      "ingredients": ["rice and lentil crepe", "potato stuffing", "coconut chutney", "sambar"]
     },
     {
-      'name': 'Chicken Enchiladas',
-      'ingredients': ['cooked chicken', 'tortillas', 'enchilada sauce', 'cheddar cheese', 'onion', 'sour cream']
+      "name": "Samosa",
+      "ingredients": ["fried pastry filled with spiced potatoes", "peas", "spices"]
     },
     {
-      'name': 'Beef and Broccoli Stir-Fry',
-      'ingredients': ['beef', 'broccoli', 'soy sauce', 'garlic', 'ginger', 'sesame oil']
+      "name": "Raita",
+      "ingredients": ["yogurt with cucumber", "onion", "spices"]
     },
     {
-      'name': 'Lentil Soup',
-      'ingredients': ['lentils', 'carrots', 'onion', 'celery', 'vegetable broth', 'spices']
+      "name": "Pakora",
+      "ingredients": ["deep-fried fritters", "gram flour", "spices", "vegetables"]
     },
     {
-      'name': 'Egg Fried Rice',
-      'ingredients': ['rice', 'eggs', 'peas', 'carrots', 'soy sauce', 'green onions']
+      "name": "Rajma Chawal",
+      "ingredients": ["red kidney beans", "rice", "spices", "onion"]
     },
     {
-      'name': 'Roast Chicken',
-      'ingredients': ['whole chicken', 'lemon', 'garlic', 'thyme', 'butter', 'potatoes']
+      "name": "Mango Lassi",
+      "ingredients": ["yogurt", "mango", "milk", "sugar"]
     },
     {
-      'name': 'Vegetable Lasagna',
-      'ingredients': ['lasagna noodles', 'ricotta cheese', 'mozzarella cheese', 'spinach', 'tomato sauce', 'onion']
+      "name": "Gulab Jamun",
+      "ingredients": ["sweet syrup-soaked dumplings", "milk solids", "sugar", "rose water"]
     },
     {
-      'name': 'Beef Burger',
-      'ingredients': ['ground beef', 'burger buns', 'lettuce', 'tomato', 'onion', 'cheese']
+      "name": "Kofta",
+      "ingredients": ["spiced balls", "gravy", "paneer", "vegetables"]
     },
     {
-      'name': 'Stuffed Bell Peppers',
-      'ingredients': ['bell peppers', 'ground meat', 'rice', 'tomato sauce', 'onion', 'cheese']
+      "name": "Pulao",
+      "ingredients": ["rice dish", "spices", "vegetables", "meat"]
     },
     {
-      'name': 'Pesto Pasta',
-      'ingredients': ['pasta', 'basil pesto', 'pine nuts', 'Parmesan cheese', 'olive oil', 'garlic']
+      "name": "Tandoori Roti",
+      "ingredients": ["oven-baked flatbread", "whole wheat flour"]
+    },
+    {
+      "name": "Hyderabadi Biryani",
+      "ingredients": ["basmati rice", "chicken or mutton", "spices", "saffron", "yogurt"]
+    },
+    {
+      "name": "Vada Pav",
+      "ingredients": ["spiced potato fritter", "bun", "chutneys"]
+    },
+    {
+      "name": "Rasgulla",
+      "ingredients": ["spongy sweet balls", "paneer", "sugar syrup"]
+    },
+    {
+      "name": "Kadhi",
+      "ingredients": ["yogurt-based curry", "gram flour", "spices"]
     }
   ];
 
